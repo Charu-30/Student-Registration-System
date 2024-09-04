@@ -12,12 +12,12 @@ The Student Registration System is a simple web application that allows users to
 To run this project locally, follow these steps:
 
 1. Clone the Repository:
-   git clone https://github.com/Charu-30/student-registration-system.git
-
-2. Navigate to the Project Directory:
+   git clone https://github.com/Charu-30/Student-Registration-System.git
+   
+3. Navigate to the Project Directory:
    cd student-registration-system
 
-3. Open the Project:
+4. Open the Project:
    Simply open the index.html file in your preferred web browser.
 
 # Usage
