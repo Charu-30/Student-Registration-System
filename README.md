@@ -4,15 +4,15 @@
 The Student Registration System is a simple web application that allows users to register students by entering their details such as name, student ID, email, and contact number. The application provides functionalities for viewing, editing, and deleting student records. All data is stored locally using the browser's local storage, ensuring that the records remain persistent even after the page is refreshed.
 
 # Technologies Used
-HTML
-CSS
-Javascript
+1. HTML
+2. CSS
+3. Javascript
 
 # Installation and Setup
 To run this project locally, follow these steps:
 
 1. Clone the Repository:
-   git clone https://github.com/your-username/student-registration-system.git
+   git clone https://github.com/Charu-30/student-registration-system.git
 
 2. Navigate to the Project Directory:
    cd student-registration-system
@@ -40,6 +40,7 @@ To run this project locally, follow these steps:
 # Contact
   For any inquiries or contributions, please contact:
   Charu Mangla
+  
   Email: charumangla432@gmail.com
   GitHub: Charu-30
 
