@@ -1,0 +1,142 @@
+/* General CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(./images/bg1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 20px;
+    margin: 0 40px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+/* CSS for input form */
+form{
+    background-color: rgb(176, 217, 228);
+    padding: 20px;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(17, 13, 138, 0.54);
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(176, 217, 228);
+    border-radius: 4px;
+}
+
+.submitButton{
+    padding: 10px;
+    margin-left: 40%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.submitButton:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 3px rgb(14, 128, 42) ;
+}
+
+/* CSS for Student Table */
+section h2{
+    text-align: center;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.table-container{
+    max-height: 350px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(17, 13, 138, 0.54);
+    border-radius: 2px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: blue;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+/* Button Styles for Edit and Delete */
+button.edit, button.delete {
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button.edit {
+    background-color: #28a745;
+    color: white;
+}
+
+button.edit:hover {
+    background-color: #218838;
+}
+
+button.delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+} 
+
